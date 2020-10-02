@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="375eb5cbd8914430a51a5f6b3a85cb62" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="TokoBeDiaModel.Cart" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.DetailTransaction" Width="1.5" PointX="7.5" PointY="3.75" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.HeaderTransaction" Width="1.5" PointX="5.25" PointY="3.5" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.PaymentType" Width="1.5" PointX="3" PointY="11" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.Product" Width="1.5" PointX="3" PointY="7" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.ProductType" Width="1.5" PointX="0.75" PointY="7.375" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.Role" Width="1.5" PointX="0.75" PointY="4" />
+        <EntityTypeShape EntityType="TokoBeDiaModel.User" Width="1.5" PointX="3" PointY="3.25" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__Cart__ProductId__3A81B327" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__Cart__UserId__398D8EEE" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__DetailTra__Produ__33D4B598" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__DetailTra__Trans__32E0915F" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__HeaderTra__Payme__36B12243" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__HeaderTra__UserI__286302EC" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__Product__Product__300424B4" />
+        <AssociationConnector Association="TokoBeDiaModel.FK__User__RoleId__25869641" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
